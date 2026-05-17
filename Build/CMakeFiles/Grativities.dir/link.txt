@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Grativities.dir/link.d CMakeFiles/Grativities.dir/main.cpp.o CMakeFiles/Grativities.dir/src/game/game.cpp.o -o Grativities  /usr/lib/libraylib.so.6.0.0 -lm
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Grativities.dir/link.d CMakeFiles/Grativities.dir/main.cpp.o CMakeFiles/Grativities.dir/src/game/game.cpp.o CMakeFiles/Grativities.dir/src/matter/matter.cpp.o CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o -o Grativities  /usr/lib/libraylib.so.6.0.0 -lm

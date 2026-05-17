@@ -9,6 +9,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/4.3.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.2/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/home/ok/Code/Grativities/CMakeLists.txt"
   "/usr/lib/cmake/raylib/raylib-config-version.cmake"
   "/usr/lib/cmake/raylib/raylib-config.cmake"

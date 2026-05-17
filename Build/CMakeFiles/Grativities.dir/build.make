@@ -100,21 +100,69 @@ CMakeFiles/Grativities.dir/src/game/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grativities.dir/src/game/game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ok/Code/Grativities/src/game/game.cpp -o CMakeFiles/Grativities.dir/src/game/game.cpp.s
 
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.o: CMakeFiles/Grativities.dir/flags.make
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.o: /home/ok/Code/Grativities/src/matter/matter.cpp
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.o: CMakeFiles/Grativities.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Grativities.dir/src/matter/matter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grativities.dir/src/matter/matter.cpp.o -MF CMakeFiles/Grativities.dir/src/matter/matter.cpp.o.d -o CMakeFiles/Grativities.dir/src/matter/matter.cpp.o -c /home/ok/Code/Grativities/src/matter/matter.cpp
+
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grativities.dir/src/matter/matter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ok/Code/Grativities/src/matter/matter.cpp > CMakeFiles/Grativities.dir/src/matter/matter.cpp.i
+
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grativities.dir/src/matter/matter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ok/Code/Grativities/src/matter/matter.cpp -o CMakeFiles/Grativities.dir/src/matter/matter.cpp.s
+
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o: CMakeFiles/Grativities.dir/flags.make
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o: /home/ok/Code/Grativities/src/physicsSystem/physics.cpp
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o: CMakeFiles/Grativities.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o -MF CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o.d -o CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o -c /home/ok/Code/Grativities/src/physicsSystem/physics.cpp
+
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ok/Code/Grativities/src/physicsSystem/physics.cpp > CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.i
+
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ok/Code/Grativities/src/physicsSystem/physics.cpp -o CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.s
+
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o: CMakeFiles/Grativities.dir/flags.make
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o: /home/ok/Code/Grativities/src/quantities/quantities.cpp
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o: CMakeFiles/Grativities.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o -MF CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o.d -o CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o -c /home/ok/Code/Grativities/src/quantities/quantities.cpp
+
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ok/Code/Grativities/src/quantities/quantities.cpp > CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.i
+
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ok/Code/Grativities/src/quantities/quantities.cpp -o CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.s
+
 # Object files for target Grativities
 Grativities_OBJECTS = \
 "CMakeFiles/Grativities.dir/main.cpp.o" \
-"CMakeFiles/Grativities.dir/src/game/game.cpp.o"
+"CMakeFiles/Grativities.dir/src/game/game.cpp.o" \
+"CMakeFiles/Grativities.dir/src/matter/matter.cpp.o" \
+"CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o" \
+"CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o"
 
 # External object files for target Grativities
 Grativities_EXTERNAL_OBJECTS =
 
 Grativities: CMakeFiles/Grativities.dir/main.cpp.o
 Grativities: CMakeFiles/Grativities.dir/src/game/game.cpp.o
+Grativities: CMakeFiles/Grativities.dir/src/matter/matter.cpp.o
+Grativities: CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o
+Grativities: CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o
 Grativities: CMakeFiles/Grativities.dir/build.make
 Grativities: CMakeFiles/Grativities.dir/compiler_depend.ts
 Grativities: /usr/lib/libraylib.so.6.0.0
 Grativities: CMakeFiles/Grativities.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Grativities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Grativities"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Grativities.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

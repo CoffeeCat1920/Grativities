@@ -4,6 +4,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Grativities.dir/main.cpp.o.d"
   "CMakeFiles/Grativities.dir/src/game/game.cpp.o"
   "CMakeFiles/Grativities.dir/src/game/game.cpp.o.d"
+  "CMakeFiles/Grativities.dir/src/matter/matter.cpp.o"
+  "CMakeFiles/Grativities.dir/src/matter/matter.cpp.o.d"
+  "CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o"
+  "CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o.d"
+  "CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o"
+  "CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o.d"
   "Grativities"
   "Grativities.pdb"
 )

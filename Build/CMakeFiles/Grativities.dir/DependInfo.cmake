@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ok/Code/Grativities/main.cpp" "CMakeFiles/Grativities.dir/main.cpp.o" "gcc" "CMakeFiles/Grativities.dir/main.cpp.o.d"
   "/home/ok/Code/Grativities/src/game/game.cpp" "CMakeFiles/Grativities.dir/src/game/game.cpp.o" "gcc" "CMakeFiles/Grativities.dir/src/game/game.cpp.o.d"
+  "/home/ok/Code/Grativities/src/matter/matter.cpp" "CMakeFiles/Grativities.dir/src/matter/matter.cpp.o" "gcc" "CMakeFiles/Grativities.dir/src/matter/matter.cpp.o.d"
+  "/home/ok/Code/Grativities/src/physicsSystem/physics.cpp" "CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o" "gcc" "CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o.d"
+  "/home/ok/Code/Grativities/src/quantities/quantities.cpp" "CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o" "gcc" "CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o.d"
   "" "Grativities" "gcc" "CMakeFiles/Grativities.dir/link.d"
   )
 

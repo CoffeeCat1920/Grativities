@@ -1,6 +1,6 @@
-CMakeFiles/Grativities.dir/src/game/game.cpp.o: \
- /home/ok/Code/Grativities/src/game/game.cpp /usr/include/stdc-predef.h \
- /home/ok/Code/Grativities/src/game/game.hpp \
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o: \
+ /home/ok/Code/Grativities/src/physicsSystem/physics.cpp \
+ /usr/include/stdc-predef.h \
  /home/ok/Code/Grativities/src/physicsSystem/physics.hpp \
  /home/ok/Code/Grativities/src/quantities/quantities.hpp \
  /usr/include/c++/16.1.1/array /usr/include/c++/16.1.1/compare \
@@ -167,4 +167,4 @@ CMakeFiles/Grativities.dir/src/game/game.cpp.o: \
  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
  /usr/include/c++/16.1.1/bits/ostream_print.h \
  /usr/include/c++/16.1.1/bits/ostream.tcc /usr/include/c++/16.1.1/istream \
- /usr/include/c++/16.1.1/bits/istream.tcc
+ /usr/include/c++/16.1.1/bits/istream.tcc /usr/include/raylib.h

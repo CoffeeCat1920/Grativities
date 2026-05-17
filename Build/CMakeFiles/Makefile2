@@ -85,12 +85,12 @@ clean: CMakeFiles/Grativities.dir/clean
 CMakeFiles/Grativities.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=1,2,3 "Built target Grativities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Grativities"
 .PHONY : CMakeFiles/Grativities.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Grativities.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ok/Code/Grativities/Build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ok/Code/Grativities/Build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Grativities.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ok/Code/Grativities/Build/CMakeFiles 0
 .PHONY : CMakeFiles/Grativities.dir/rule
@@ -102,7 +102,7 @@ Grativities: CMakeFiles/Grativities.dir/rule
 # codegen rule for target.
 CMakeFiles/Grativities.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Grativities"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ok/Code/Grativities/Build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target Grativities"
 .PHONY : CMakeFiles/Grativities.dir/codegen
 
 # clean rule for target.
@@ -117,6 +117,7 @@ CMakeFiles/Grativities.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/ok/Code/Grativities/Build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

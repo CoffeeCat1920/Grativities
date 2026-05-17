@@ -4,6 +4,9 @@ Grativities: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
   CMakeFiles/Grativities.dir/main.cpp.o \
   CMakeFiles/Grativities.dir/src/game/game.cpp.o \
+  CMakeFiles/Grativities.dir/src/matter/matter.cpp.o \
+  CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o \
+  CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o \
   /usr/lib/libraylib.so.6.0.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
@@ -50,6 +53,12 @@ Grativities: \
 CMakeFiles/Grativities.dir/main.cpp.o:
 
 CMakeFiles/Grativities.dir/src/game/game.cpp.o:
+
+CMakeFiles/Grativities.dir/src/matter/matter.cpp.o:
+
+CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o:
+
+CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o:
 
 /usr/lib/libraylib.so.6.0.0:
 

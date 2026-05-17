@@ -113,6 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /home/ok/Code/Grativities/Build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -177,6 +178,78 @@ src/game/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/game/game.cpp.s
 .PHONY : src/game/game.cpp.s
 
+src/matter/matter.o: src/matter/matter.cpp.o
+.PHONY : src/matter/matter.o
+
+# target to build an object file
+src/matter/matter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/matter/matter.cpp.o
+.PHONY : src/matter/matter.cpp.o
+
+src/matter/matter.i: src/matter/matter.cpp.i
+.PHONY : src/matter/matter.i
+
+# target to preprocess a source file
+src/matter/matter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/matter/matter.cpp.i
+.PHONY : src/matter/matter.cpp.i
+
+src/matter/matter.s: src/matter/matter.cpp.s
+.PHONY : src/matter/matter.s
+
+# target to generate assembly for a file
+src/matter/matter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/matter/matter.cpp.s
+.PHONY : src/matter/matter.cpp.s
+
+src/physicsSystem/physics.o: src/physicsSystem/physics.cpp.o
+.PHONY : src/physicsSystem/physics.o
+
+# target to build an object file
+src/physicsSystem/physics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.o
+.PHONY : src/physicsSystem/physics.cpp.o
+
+src/physicsSystem/physics.i: src/physicsSystem/physics.cpp.i
+.PHONY : src/physicsSystem/physics.i
+
+# target to preprocess a source file
+src/physicsSystem/physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.i
+.PHONY : src/physicsSystem/physics.cpp.i
+
+src/physicsSystem/physics.s: src/physicsSystem/physics.cpp.s
+.PHONY : src/physicsSystem/physics.s
+
+# target to generate assembly for a file
+src/physicsSystem/physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/physicsSystem/physics.cpp.s
+.PHONY : src/physicsSystem/physics.cpp.s
+
+src/quantities/quantities.o: src/quantities/quantities.cpp.o
+.PHONY : src/quantities/quantities.o
+
+# target to build an object file
+src/quantities/quantities.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.o
+.PHONY : src/quantities/quantities.cpp.o
+
+src/quantities/quantities.i: src/quantities/quantities.cpp.i
+.PHONY : src/quantities/quantities.i
+
+# target to preprocess a source file
+src/quantities/quantities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.i
+.PHONY : src/quantities/quantities.cpp.i
+
+src/quantities/quantities.s: src/quantities/quantities.cpp.s
+.PHONY : src/quantities/quantities.s
+
+# target to generate assembly for a file
+src/quantities/quantities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grativities.dir/build.make CMakeFiles/Grativities.dir/src/quantities/quantities.cpp.s
+.PHONY : src/quantities/quantities.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +265,15 @@ help:
 	@echo "... src/game/game.o"
 	@echo "... src/game/game.i"
 	@echo "... src/game/game.s"
+	@echo "... src/matter/matter.o"
+	@echo "... src/matter/matter.i"
+	@echo "... src/matter/matter.s"
+	@echo "... src/physicsSystem/physics.o"
+	@echo "... src/physicsSystem/physics.i"
+	@echo "... src/physicsSystem/physics.s"
+	@echo "... src/quantities/quantities.o"
+	@echo "... src/quantities/quantities.i"
+	@echo "... src/quantities/quantities.s"
 .PHONY : help
 
 
@@ -203,6 +285,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/ok/Code/Grativities/Build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
