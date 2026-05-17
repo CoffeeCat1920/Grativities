@@ -1,0 +1,3 @@
+/home/ok/Code/Grativities/Build/CMakeFiles/Grativities.dir
+/home/ok/Code/Grativities/Build/CMakeFiles/edit_cache.dir
+/home/ok/Code/Grativities/Build/CMakeFiles/rebuild_cache.dir

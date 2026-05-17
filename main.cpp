@@ -1,15 +1,13 @@
-#include "raylib/raylib.h"
 #include "core/colors.hpp"
-
 #include "game/game.hpp"
+#include <raylib.h>
 
-int main () {
-  
-  InitWindow( 64*5 , 64*5, "Animation Test");
+int main() {
+
+  InitWindow(64 * 5, 64 * 5, "Animation Test");
   Game game;
 
-  while ( !WindowShouldClose() )
-  { 
+  while (!WindowShouldClose()) {
 
     game.Update();
 
@@ -20,7 +18,6 @@ int main () {
     game.Draw();
 
     EndDrawing();
-    
   }
 
   CloseWindow();
