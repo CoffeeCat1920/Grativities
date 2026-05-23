@@ -8,9 +8,9 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(raylib REQUIRED)
 
-file(GLOB_RECURSE SOURCES
-    src/*.cpp
-    main.cpp
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
+    "${CMAKE_SOURCE_DIR}/src/*.cpp"
+    "${CMAKE_SOURCE_DIR}/main.cpp"
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
